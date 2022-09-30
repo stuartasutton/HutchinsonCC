@@ -1,0 +1,508 @@
+[
+    {
+        "@id": "res:0d8f98c5-fcf8-417f-bef7-414fdf7a708b",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU100",
+        "ceterms:name": {"en": "Small Business Accounting"},
+        "ceterms:description": {"en": "Fundamentals of small business record keeping: double entry, adjusting and closing entries, preparation of financial statements, payroll records."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:f024d935-2af5-454e-979c-010992cf3f11",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU105",
+        "ceterms:name": {"en": "Introduction to Business"},
+        "ceterms:description": {"en": "Economic environment, organization, management, labor, marketing, finance and career opportunities available in business; for both non-business and business majors."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ab214088-a6f0-4cde-a6e0-b9ce2d999352",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU107",
+        "ceterms:name": {"en": "Personal Finance"},
+        "ceterms:description": {"en": "Personal and family financial planning emphasizing budgeting, consumer protection, credit, home buying, income taxes, insurance and investments."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:4d3bedd6-8ffa-4079-a3b5-0451ed05d452",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU109",
+        "ceterms:name": {"en": "Business Communications"},
+        "ceterms:description": {"en": "Practice in writing business letters and business reports; using business vocabulary; verbal, non-verbal, and interpersonal communications; listening and oral reporting."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:286435a1-5d3c-4d11-a045-5f9d35d113a6",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU202",
+        "ceterms:name": {"en": "Marketing"},
+        "ceterms:description": {"en": "The scope and development of the modern marketing including marketing research, forecasting, consumer buying behavior and consumer motivation with emphasis on the marketing manager's implementation of the marketing mix: product, price, promotion and place."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:69d06701-396c-4ba2-8028-952c36e48f90",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "BU203",
+        "ceterms:name": {"en": "Management"},
+        "ceterms:description": {"en": "Skills and processes needed to effectively, efficiently, and ethically manage people, projects, and tasks."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:e0e44fe5-06ce-4010-8af9-39d4f5c22ab5",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "DR100",
+        "ceterms:name": {"en": "Computer Aided Drafting I"},
+        "ceterms:description": {"en": "Using computer aided drafting software to generate two-dimensional working drawings."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:b6202430-cfbc-4452-a3ea-9c59b5135be0",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "DR119",
+        "ceterms:name": {"en": "3D Parametric Modeling I"},
+        "ceterms:description": {"en": "Utilization of parametric modeling software to develop 3D models of mechanical parts and assemblies as well as 2D detail drawings for manufacture."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:99f12bfd-80d1-4e39-857d-c1c92bf321bc",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "EN100",
+        "ceterms:name": {"en": "English Composition 1B"},
+        "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used. In addition to the content of EN101, individual assistance is also given in areas of need."},
+        "ceterms:entryCondition": {"en": "Students who complete EN098 with a C grade or better must enroll in EN100/EN099 with the same instructor at the same time. Students must earn a grade of C or better to sequence to EN102."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "En101",
+        "ceterms:name": {"en": "English Composition 1A"},
+        "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used."},
+        "ceterms:entryCondition": {"en": "Based on placement scores, students may be required to enroll in EN100/EN099 instead of EN101. Students must earn a grade of C or better to sequence to EN102."}, 
+        "ceterms:creditValue":
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "En101H",
+        "ceterms:name": {"en": "Honors English Composition 1A"},
+        "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used."},
+        "ceterms:entryCondition": 
+            {
+                "@type": "ceterms:ConditionProfile",
+                "ceterms:description": {"en": "Students must earn a grade of C or better to sequence to EN102."} 
+            }, 
+        "ceterms:creditValue":
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },    {
+        "@id": "res:a13f603e-8240-436c-ad63-4032ebfbb01a",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "EN107",
+        "ceterms:name": {"en": "Business English Grammar"},
+        "ceterms:description": {"en": "Building language confidence in standard English through greater fluency and accuracy using principles of grammar and mechanics of writing such as punctuation, spelling, capitalization, and sentence structure. Analyzing and practicing sentence construction using business-related vocabulary. This course does not meet English requirements for the Associate of Arts degree or Associate of Science degree."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:5025337e-73b7-4751-983d-892af08177a9",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "EN108",
+        "ceterms:name": {"en": "Technical Writing"},
+        "ceterms:description": {"en": "Developing skills that can apply to a variety of technical documents appropriate to each student's course of study including principle of organizing, writing, and revising clear, readable documents for industry and business."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:7b474ff8-b3bb-4c63-8d35-9fc140857d47",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "IS104",
+        "ceterms:name": {"en": "Microcomputer Applications"},
+        "ceterms:description": {"en": "Microcomputers and various software applications; hardware and software selection, integration, and implementation; fundamentals of operating systems, word processing, spreadsheets, databases, and computer problem solving."},
+        "ceterms:entryCondition": {
+                "@type": "ceterms:ConditionProfile",
+                "ceterms:description": {"en": "Prior computer experience required. Keyboarding skills recommended."} 
+            },
+        "ceterms:creditValue": 
+				{
+					"@type": "ceterms:ValueProfile",
+					"schema:value": 3
+				}
+    },
+    {
+        "@id": "res:b9bfbd8f-d428-40da-91aa-3029672ed3b1",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "MC101",
+        "ceterms:name": {"en": "Introduction to Machine Technology"},
+        "ceterms:description": {"en": "No Hutchincon course list found."},
+        "ceterms:creditValue": 
+				{
+					"@type": "ceterms:ValueProfile",
+					"schema:value": 3
+				}
+    },
+     {
+        "@id": "res:efa0c0c6-b2fe-40b3-ac47-441a3eca1936",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "PS100",
+        "ceterms:name": {"en": "General Psychology"},
+        "ceterms:description": {"en": "A survey of the fundamental principles of behavior including physiological, perceptual, historical, methodological, learning, memory, development, motivational, emotional, social and applied perspectives."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:26a64084-ad5a-4300-b9b6-76d5316375a8",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "PS101",
+        "ceterms:name": {"en": "Human Relations"},
+        "ceterms:description": {"en": "Psychological principles applied to everyday living with an emphasis on self-understanding and on building successful relationships."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:9ac7ae98-8552-4117-85d8-47c023c08fd7",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "SO100",
+        "ceterms:name": {"en": "Fundamentals of Sociology"},
+        "ceterms:description": {"en": "Development and interaction of the individual in society with consideration of the culture, structures, functions of societies, social groups and institutions with emphasis on social interaction and its relation to personality and human action."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:00c18d76-001a-4f12-b803-dcfa808a24d0",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "TR120",
+        "ceterms:name": {"en": "Work Ethics"},
+        "ceterms:description": {"en": "Skills required for success in the workplace with focus on the development of positive work habits and communication skills."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-1312cd1b-4152-4732-9e8a-5d5c2a62bca6",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "TR121",
+        "ceterms:name": {"en": "General Industrial Safety/OSHA10"},
+        "ceterms:description": {"en": "Safety procedures in manufacturing, emphasizing compliance with OSHA 10 general industry regulations."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 1
+			}
+    },
+    {
+        "@id": "res:d09ba213-c04c-466b-bcc9-6c2f80923542",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE100",
+        "ceterms:name": {"en": "Basic Welding"},
+        "ceterms:description": {"en": "Introduction to equipment, procedures and safety practices used in cutting steel with oxy-fuel equipment, as well as shielded metal arc welding, gas-tungsten arc welding and gas metal arc welding."},
+        "ceterms:requires": "https://sandbox.credentialengineregistry.org/resources/ce-27cf776b-207e-4d77-93b1-3e5cfc0178e3",
+        "ceterms:entryCondition": 
+            {
+                "@type": "ceterms:ConditionProfile",
+                "ceterms:description": {"en": "This class requires basic tools and proper protective equipment for welding."}
+            },
+        "ceterms:creditValue": 
+		    {
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-c142083c-314f-468c-94c8-4297187c41f4",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE101",
+        "ceterms:name": {"en": "Welding Safety"},
+        "ceterms:description": {"en": "Job/site safety and precautions for job/site hazards; uses of personal protective equipment (PPE); safety equipment and procedures related to safe work practices and environment; fire prevention and protection techniques; and Hazardous Communications (HazCom) including Material Safety Data Sheets (MSDS)."},
+        "ceterms:requires": "https://sandbox.credentialengineregistry.org/resources/ce-02433fad-08a3-4581-b4b9-dd483713d36c",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 1
+			}
+    },
+    {
+        "@id": "res:ce-eea99f7b-48ae-4ebb-821c-c4c938a1884e",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE102",
+        "ceterms:name": {"en": "Welding Blueprint Reading"},
+        "ceterms:description": {"en": "Identification of the alphabet of lines, common views, industry related materials, abbreviations, American Welding Society (AWS) welding symbols and International Organization Standardization (ISO) welding symbols; interpretation of title block, bill of materials, revision history and isometric shapes to sketch blueprints using orthographic projection practices; application of mathematical equations and basic measuring tools used in welding blueprints."},
+        "ceterms:creditValue": 
+				{
+					"@type": "ceterms:ValueProfile",
+					"schema:value": 3
+				}
+    },
+    {
+        "@id": "res:ce-b8118f65-dc2b-4abc-a835-0aca203fdbf8",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE104",
+        "ceterms:name": {"en": "Shielded Metal Arc Welding"},
+        "ceterms:description": {"en": "Through classroom and lab/shop activities; safe and correct set up of the SMAW workstation; SMAW electrode classifications, proper electrode selection, polarity requirements, electrode use based on metal types and thicknesses; welding with E6010 (fast freeze, cellulosic) and E7018 (low hydrogen) electrodes on various weld joints in the flat (1F & 1G) and horizontal (2F & 2G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
+        "ceterms:requires": "@@@",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-37da95ed-a767-48aa-98b7-1970416d7269",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE105",
+        "ceterms:name": {"en": "Shielded Metal Arc Welding II"},
+        "ceterms:description": {"en": "Continuation of WE104 Shielded Metal Arc Welding; reviewing safety, electrode identification, workstation setup and use of Shielded Metal Arc Welding (SMAW) equipment to perform welds on plate using E6010 (fast freeze, cellulosic) and E7018 (low hydrogen) electrodes in the vertical (3F & 3G) and overhead (4F & 4G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
+        "ceterms:prerequisite": "res:ce-b8118f65-dc2b-4abc-a835-0aca203fdbf8",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-c75b5d29-9579-4f41-bb18-f3f2845ddb95",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE106",
+        "ceterms:name": {"en": "Cutting Processes for Welding"},
+        "ceterms:description": {"en": "Types of mechanical and thermal cutting equipment and processes used in the welding trade; safe and correct set up, operation and shut down of the Oxy-Fuel Cutting (OFC) workstation, Plasma Arc Cutting (PAC) workstation, and Carbon Arc Cutting with Air (CAC-A) workstations, safe and proper operation of a metal shear, iron worker type equipment, band saw, bench and angle grinders, friction cutting equipment; and inspection of quality and tolerance of cuts according to industry standards."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-c5fb7db3-34a8-4029-b258-e19dcf433697",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE110",
+        "ceterms:name": {"en": "Gas Metal Arc Welding"},
+        "ceterms:description": {"en": "Through classroom and lab/shop activities; safe and correct set up of the GMAW workstation; correlation of GMAW and other similar wire based electrode classifications with base metals and joint criteria; proper electrode selection and use based on metal thickness; weld with .035 and .045 diameter electrodes using short circuit and spray transfer methods on various weld joints in the flat (1F & 1G), and horizontal (2F & 2G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-5db032a3-9c05-4fbb-a9f7-a77725f29922",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE111",
+        "ceterms:name": {"en": "Gas Metal Acr Welding II"},
+        "ceterms:description": {"en": "Continuation of WE110 Gas Metal Arc Welding; reviewing of safety, workstation set up; electrode classifications; proper electrode selection and use based on metal types and thicknesses; and the use of .035 and .045 electrode diameters in the short circuit transfer; performing welds in the vertical (3F & 3G) and overhead (4F & 4G) test positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
+        "ceterms:prerequisite": "res:ce-c5fb7db3-34a8-4029-b258-e19dcf433697",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-2c227e0a-5ecd-461d-916c-30a01bb31415",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE112",
+        "ceterms:name": {"en": "Gas Tungsten Arc Welding"},
+        "ceterms:description": {"en": "Through classroom and lab/shop activities; theory associated with the handling, preparation and process for common production base metals, GTAW electrode and filler metal classifications relative to base metals and joint criteria; proper electrode and filler metal selection and use based on metal types and thicknesses; safe and correct set up of the GTAW workstation; DCEN welding on carbon steel base metal covering various weld joints in the flat (1F & 1G) and horizontal (2F & 2G) positions to meet requirements of the latest version of the American Welding Society D1.3/D1.3M:20XX Structural Welding Code-Sheet Steel."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:ce-4bffa852-a2c9-4a6b-b0db-4e58700f0fcd",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE113",
+        "ceterms:name": {"en": "Gas Tungsten Arc Welding II"},
+        "ceterms:description": {"en": "Advanced Gas Tungsten Arc Welding processes including welding of stainless steel, aluminum, and tubing materials."},
+        "ceterms:prerequisite": "res:ce-2c227e0a-5ecd-461d-916c-30a01bb31415",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+     {
+        "@id": "res:ce-7eaf41dd-1128-4235-96b2-276e5381471e",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE115",
+        "ceterms:name": {"en": "Welding Layout and Calculations"},
+        "ceterms:description": {"en": "Project layout, the economics of welding design, fabrication and blueprint reading; application of geometric principles and linear measurements applied to fabrication and welding through the practical application of principles."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 2
+			}
+    },
+    {
+        "@id": "res:ce-e3cdf1c7-b357-4625-b1ec-6f584e54a6f4",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE116",
+        "ceterms:name": {"en": "Fluc Cored Arc Welding"},
+        "ceterms:description": "Through classroom and lab/shop activities; FCAW safety, electrode classifications; proper electrode selection and use based on metal types, thicknesses, weld positions, and multi-pass vs single pass weld requirements; safe set up of FCAW workstation, welding with self-shielded and gas-shielded .045 or larger electrode diameters; in the horizontal (2F & 2G) vertical (3F & 3G) and overhead (4F & 4G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel.",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 2
+			}
+    },
+    {
+        "@id": "res:ce-50b68e3d-9ea6-4767-9135-1aa710b2b56d",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE117",
+        "ceterms:name": {"en": "Welding Instection and Qualification I"},
+        "ceterms:description": {"en": "Overview of welding qualification, inspection processes, welder testing, related terminology, metals and consumables identification, application of welding processes in relation to the welding codes used in structural, pipeline, aerospace, manufacturing and energy sectors."},
+        "ceterms:prerequisite": "res:ce-7eaf41dd-1128-4235-96b2-276e5381471e",
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 2
+			}
+    },
+    {
+        "@id": "res:ce-c1f9a304-d358-4c85-b6c3-401e2a13bc0f",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE118",
+        "ceterms:name": {"en": "Industrial Robotic Welding"},
+        "ceterms:description": {"en": "No Hutchinson course listing found."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 2
+			}
+    },
+    {
+        "@id": "res:ce-fe68ed5c-3ba4-438c-9903-49b7c345532a",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE128",
+        "ceterms:name": {"en": "Welding Metallurgy"},
+        "ceterms:description": {"en": "The study of ferrous and nonferrous metals, their production, mechanical properties, weldability, and machinability."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 2
+			}			
+    },
+    {
+        "@id": "res:ce-e93d0e2c-4346-4dfe-a142-93639766f3bc",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE209",
+        "ceterms:name": {"en": "Welding Fabrication Processes"},
+        "ceterms:description": {"en": "Advanced training through classroom and lab/shop activities; blueprint, math, fabrication based machine operations, and welding applications to the practical application of manufacturing based process."},
+        "ceterms:prerequisite": ["res:ce-37da95ed-a767-48aa-98b7-1970416d7269", "res:ce-5db032a3-9c05-4fbb-a9f7-a77725f29922","res:ce-4bffa852-a2c9-4a6b-b0db-4e58700f0fcd", "res:ce-fc96f30c-d983-4929-b2b4-4a3444aa1370"],
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    },
+    {
+        "@id": "res:832f6399-885c-4ea7-b059-6e8a0fd802a2",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE215",
+        "ceterms:name": {"en": "Welding Internship"},
+        "ceterms:description": {"en": "No Hutchinson course listing found."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    },
+    {
+        "@id": "res:ce-2e020c8e-d51f-44b6-80a4-7745b4fafc5b",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE220",
+        "ceterms:name": {"en": "Welding Inspection and Qualification II"},
+        "ceterms:description": {"en": "Advanced training in; welding qualification, visual inspection processes, welder testing, related terminology, metal and consumable identification, welding processes in relation to the welding codes used in the structural, pipeline, aerospace, manufacturing and energy sectors through the practical application and successful completion of welder qualification tests."},
+        "ceterms:prerequisite": ["res:ce-efda5ef9-d819-4543-9da8-3187e9f5c112", "res:ce-fc96f30c-d983-4929-b2b4-4a3444aa1370"],
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    },
+    {
+        "@id": "res:ce-efda5ef9-d819-4543-9da8-3187e9f5c112",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE217",
+        "ceterms:name": {"en": "Gas Tunsten Arc Weling III"},
+        "ceterms:description": {"en": "Advanced training in GTAW processes through classroom and lab/shop activities; reviewing of arc welding safety; welding the root pass, hot pass, fill and cap passes with carbon steel or stainless filler materials on 6\" schedule 40 steel pipe in the 2G and 5G positions to meet or exceed requirements of the latest American Society of Mechanical Engineers (ASME) Section IX Code Requirements."},
+        "ceterms:prerequisite": ["res:ce-2c227e0a-5ecd-461d-916c-30a01bb31415","res:ce-4bffa852-a2c9-4a6b-b0db-4e58700f0fcd"],
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    },
+    {
+        "@id": "res:ce-fc96f30c-d983-4929-b2b4-4a3444aa1370",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE218",
+        "ceterms:name": {"en": "Shielded Metal Arc Welding III"},
+        "ceterms:description": {"en": "Advanced training in SMAW processes through classroom and lab/shop activities; reviewing of arc welding safety; welding the E6010 root and hot passes, and E7018 fill and cap passes on 6\" schedule 40 steel pipe in the 2G and 5G positions to meet or exceed requirements of the latest American Society of Mechanical Engineers (ASME) Section IX Code Requirements."},
+        "ceterms:prerequisite": ["res:ce-b8118f65-dc2b-4abc-a835-0aca203fdbf8", "res:ce-37da95ed-a767-48aa-98b7-1970416d7269"],
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    }   
+]
