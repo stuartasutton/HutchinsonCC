@@ -99,9 +99,31 @@
         "@id": "res:99f12bfd-80d1-4e39-857d-c1c92bf321bc",
         "@type": "ceterms:Course",
         "ceterms:codedNotation": "EN100",
-        "ceterms:name": {"en": "English Composition 1B"},
+        "ceterms:name": {"en": "English Composition IB"},
         "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used. In addition to the content of EN101, individual assistance is also given in areas of need."},
         "ceterms:entryCondition": {"en": "Students who complete EN098 with a C grade or better must enroll in EN100/EN099 with the same instructor at the same time. Students must earn a grade of C or better to sequence to EN102."},
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 3
+			}
+    },
+    {
+        "@id": "res:a9bd9478-1f2d-4b8c-8e00-2a204e830c84",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "EN102",
+        "ceterms:name": {"en": "English Composition II"},
+        "ceterms:description": {"en": "Development of critical reading and writing skills, through the exploration of literary texts in thematic units, with additional emphasis on research and persuasive writing."},
+        "ceterms:prerequisite": 
+            {
+                "@type": "ceterms:ConditionProfile",
+                "ceterms:logicalOperator": "https://purl.org/ctdl/vocabs/logic/Or",
+                "ceterms:targetCourse": [
+                    "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
+                    "res:a9bd9478-1f2d-4b8c-8e00-2a204e830c84",
+                    "res:99f12bfd-80d1-4e39-857d-c1c92bf321bc"
+                ]
+            },
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
@@ -112,7 +134,7 @@
         "@id": "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
         "@type": "ceterms:Course",
         "ceterms:codedNotation": "En101",
-        "ceterms:name": {"en": "English Composition 1A"},
+        "ceterms:name": {"en": "English Composition IA"},
         "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used."},
         "ceterms:entryCondition": {"en": "Based on placement scores, students may be required to enroll in EN100/EN099 instead of EN101. Students must earn a grade of C or better to sequence to EN102."}, 
         "ceterms:creditValue":
@@ -122,7 +144,7 @@
 			}
     },
     {
-        "@id": "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
+        "@id": "res:a9bd9478-1f2d-4b8c-8e00-2a204e830c84",
         "@type": "ceterms:Course",
         "ceterms:codedNotation": "En101H",
         "ceterms:name": {"en": "Honors English Composition 1A"},
