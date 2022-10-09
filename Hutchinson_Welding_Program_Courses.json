@@ -124,6 +124,19 @@
                     "res:99f12bfd-80d1-4e39-857d-c1c92bf321bc"
                 ]
             },
+        "ceterms:hasConstraint":
+            {
+                "@id": "_:n3183b507e803424c9adaa7df83806927b26",
+                "@type": "https://purl.org/ctdl/terms/Constraint",
+                    "ceterms:comparator": "https://purl.org/ctdl/vocabs/compare/EQ",
+                    "ceterms:leftSource": "https://purl.org/ctdl/vocabs/letterGrade",
+                    "ceterms:rightAction": "https://purl.org/ctdl/vocabs/array/AnyOf",
+                    "ceterms:rightSource": [
+                        "https://purl.org/ctdl/vocabs/letterGrade/A",
+                        "https://purl.org/ctdl/vocabs/letterGrade/B",
+                        "https://purl.org/ctdl/vocabs/letterGrade/C"
+                    ]
+            },
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
@@ -133,7 +146,7 @@
     {
         "@id": "res:8374a83d-034f-4f32-a076-6e4fd7b2e4d2",
         "@type": "ceterms:Course",
-        "ceterms:codedNotation": "En101",
+        "ceterms:codedNotation": "EN101",
         "ceterms:name": {"en": "English Composition IA"},
         "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used."},
         "ceterms:entryCondition": {"en": "Based on placement scores, students may be required to enroll in EN100/EN099 instead of EN101. Students must earn a grade of C or better to sequence to EN102."}, 
@@ -146,7 +159,7 @@
     {
         "@id": "res:a9bd9478-1f2d-4b8c-8e00-2a204e830c84",
         "@type": "ceterms:Course",
-        "ceterms:codedNotation": "En101H",
+        "ceterms:codedNotation": "EN101H",
         "ceterms:name": {"en": "Honors English Composition 1A"},
         "ceterms:description": {"en": "Essentials of composition. Emphasis is placed on practice in writing expository paragraphs and themes and in using the techniques of research. Selected readings for models and criticism are used."},
         "ceterms:entryCondition": 
@@ -277,7 +290,7 @@
         "ceterms:codedNotation": "WE100",
         "ceterms:name": {"en": "Basic Welding"},
         "ceterms:description": {"en": "Introduction to equipment, procedures and safety practices used in cutting steel with oxy-fuel equipment, as well as shielded metal arc welding, gas-tungsten arc welding and gas metal arc welding."},
-        "ceterms:requires": "https://sandbox.credentialengineregistry.org/resources/ce-27cf776b-207e-4d77-93b1-3e5cfc0178e3",
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-27cf776b-207e-4d77-93b1-3e5cfc0178e3",
         "ceterms:entryCondition": 
             {
                 "@type": "ceterms:ConditionProfile",
@@ -295,7 +308,7 @@
         "ceterms:codedNotation": "WE101",
         "ceterms:name": {"en": "Welding Safety"},
         "ceterms:description": {"en": "Job/site safety and precautions for job/site hazards; uses of personal protective equipment (PPE); safety equipment and procedures related to safe work practices and environment; fire prevention and protection techniques; and Hazardous Communications (HazCom) including Material Safety Data Sheets (MSDS)."},
-        "ceterms:requires": "https://sandbox.credentialengineregistry.org/resources/ce-02433fad-08a3-4581-b4b9-dd483713d36c",
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-02433fad-08a3-4581-b4b9-dd483713d36c",
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
@@ -308,6 +321,7 @@
         "ceterms:codedNotation": "WE102",
         "ceterms:name": {"en": "Welding Blueprint Reading"},
         "ceterms:description": {"en": "Identification of the alphabet of lines, common views, industry related materials, abbreviations, American Welding Society (AWS) welding symbols and International Organization Standardization (ISO) welding symbols; interpretation of title block, bill of materials, revision history and isometric shapes to sketch blueprints using orthographic projection practices; application of mathematical equations and basic measuring tools used in welding blueprints."},
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-1e3c44f0-13b7-4faf-bb0a-8030ad91d1a4",
         "ceterms:creditValue": 
 				{
 					"@type": "ceterms:ValueProfile",
@@ -320,7 +334,7 @@
         "ceterms:codedNotation": "WE104",
         "ceterms:name": {"en": "Shielded Metal Arc Welding"},
         "ceterms:description": {"en": "Through classroom and lab/shop activities; safe and correct set up of the SMAW workstation; SMAW electrode classifications, proper electrode selection, polarity requirements, electrode use based on metal types and thicknesses; welding with E6010 (fast freeze, cellulosic) and E7018 (low hydrogen) electrodes on various weld joints in the flat (1F & 1G) and horizontal (2F & 2G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
-        "ceterms:requires": "@@@",
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-696ea290-249a-4f99-9ed1-419f000d8472",
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
@@ -334,6 +348,7 @@
         "ceterms:name": {"en": "Shielded Metal Arc Welding II"},
         "ceterms:description": {"en": "Continuation of WE104 Shielded Metal Arc Welding; reviewing safety, electrode identification, workstation setup and use of Shielded Metal Arc Welding (SMAW) equipment to perform welds on plate using E6010 (fast freeze, cellulosic) and E7018 (low hydrogen) electrodes in the vertical (3F & 3G) and overhead (4F & 4G) positions to meet requirements of the latest version of the American Welding Society D1.1/D1.1M:20XX Structural Welding Code-Steel."},
         "ceterms:prerequisite": "res:ce-b8118f65-dc2b-4abc-a835-0aca203fdbf8",
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-6011bd26-38d9-48fe-a2d8-886a1aeb64b6",
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
@@ -346,6 +361,7 @@
         "ceterms:codedNotation": "WE106",
         "ceterms:name": {"en": "Cutting Processes for Welding"},
         "ceterms:description": {"en": "Types of mechanical and thermal cutting equipment and processes used in the welding trade; safe and correct set up, operation and shut down of the Oxy-Fuel Cutting (OFC) workstation, Plasma Arc Cutting (PAC) workstation, and Carbon Arc Cutting with Air (CAC-A) workstations, safe and proper operation of a metal shear, iron worker type equipment, band saw, bench and angle grinders, friction cutting equipment; and inspection of quality and tolerance of cuts according to industry standards."},
+        "ceterms:requires": "https://credentialengineregistry.org/graph/ce-b40183ca-d04e-48ac-b8b9-9f7ce4825170",
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
