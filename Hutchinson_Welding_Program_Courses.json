@@ -505,19 +505,6 @@
 			}
     },
     {
-        "@id": "res:ce-2e020c8e-d51f-44b6-80a4-7745b4fafc5b",
-        "@type": "ceterms:Course",
-        "ceterms:codedNotation": "WE220",
-        "ceterms:name": {"en": "Welding Inspection and Qualification II"},
-        "ceterms:description": {"en": "Advanced training in; welding qualification, visual inspection processes, welder testing, related terminology, metal and consumable identification, welding processes in relation to the welding codes used in the structural, pipeline, aerospace, manufacturing and energy sectors through the practical application and successful completion of welder qualification tests."},
-        "ceterms:prerequisite": ["res:ce-efda5ef9-d819-4543-9da8-3187e9f5c112", "res:ce-fc96f30c-d983-4929-b2b4-4a3444aa1370"],
-        "ceterms:creditValue": 
-			{
-				"@type": "ceterms:ValueProfile",
-				"schema:value": 4
-			}
-    },
-    {
         "@id": "res:ce-efda5ef9-d819-4543-9da8-3187e9f5c112",
         "@type": "ceterms:Course",
         "ceterms:codedNotation": "WE217",
@@ -537,6 +524,19 @@
         "ceterms:name": {"en": "Shielded Metal Arc Welding III"},
         "ceterms:description": {"en": "Advanced training in SMAW processes through classroom and lab/shop activities; reviewing of arc welding safety; welding the E6010 root and hot passes, and E7018 fill and cap passes on 6\" schedule 40 steel pipe in the 2G and 5G positions to meet or exceed requirements of the latest American Society of Mechanical Engineers (ASME) Section IX Code Requirements."},
         "ceterms:prerequisite": ["res:ce-b8118f65-dc2b-4abc-a835-0aca203fdbf8", "res:ce-37da95ed-a767-48aa-98b7-1970416d7269"],
+        "ceterms:creditValue": 
+			{
+				"@type": "ceterms:ValueProfile",
+				"schema:value": 4
+			}
+    },
+        {
+        "@id": "res:ce-2e020c8e-d51f-44b6-80a4-7745b4fafc5b",
+        "@type": "ceterms:Course",
+        "ceterms:codedNotation": "WE220",
+        "ceterms:name": {"en": "Welding Inspection and Qualification II"},
+        "ceterms:description": {"en": "Advanced training in; welding qualification, visual inspection processes, welder testing, related terminology, metal and consumable identification, welding processes in relation to the welding codes used in the structural, pipeline, aerospace, manufacturing and energy sectors through the practical application and successful completion of welder qualification tests."},
+        "ceterms:prerequisite": ["res:ce-efda5ef9-d819-4543-9da8-3187e9f5c112", "res:ce-fc96f30c-d983-4929-b2b4-4a3444aa1370"],
         "ceterms:creditValue": 
 			{
 				"@type": "ceterms:ValueProfile",
